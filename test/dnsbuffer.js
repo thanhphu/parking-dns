@@ -45,7 +45,7 @@ function encode(data) {
                 throw new TypeError('data (string) is required');
 
         tokens = data.split(/\s/);
-        buffer = new Buffer(tokens.length);
+        buffer = Buffer.alloc(tokens.length);
 
         for (i in tokens) {
                 var t = '0x' + tokens[i];
