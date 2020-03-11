@@ -1,7 +1,7 @@
 let named = require('./lib/index');
 let server = named.createServer();
 let ttl = 300;
-let port = 53;
+let port = 9953;
 
 server.listen(port, '0.0.0.0', function () {
   console.log('DNS server started on port', port);
