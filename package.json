@@ -1,0 +1,23 @@
+{
+  "name": "parking-dns",
+  "description": "Dummy DNS server",
+  "version": "1.0.0",
+  "author": "Thanh Phu",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thanhphu/parking-dns"
+  },
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=0.6"
+  },
+  "dependencies": {
+    "bunyan": "0.7.0",
+    "ipaddr.js": "0.1.1"
+  },
+  "devDependencies": {
+    "nodeunit": "0.9.0"
+  },
+  "license": "MIT"
+}
